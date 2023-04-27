@@ -4,7 +4,7 @@ from PIL import Image
 
 from rdkit import Chem
 from rdkit.Chem import AllChem, Draw
-from rdkit.Chem.Draw import IPythonConsole, SimilarityMaps
+from rdkit.Chem.Draw import SimilarityMaps
 
 def rdkit_charge_analysis():
     st.title('RDKit + GasteigerCharge 😀')
